@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity2">
+
+
+    <EditText
+        android:id="@+id/updatevehicalNO"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Vehicle NO"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/green_boarder"
+
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="5dp"
+        android:text=""
+        android:textColor="@color/green"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/updareowner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/green_boarder"
+        android:hint="Enter Owner Name"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="5dp"
+        android:text=""
+        android:textColor="@color/green"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etupdatedbrand"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/green_boarder"
+        android:hint="Enter Vehicle Brand"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="5dp"
+        android:text=""
+        android:textColor="@color/green"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etupdateRTO"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/green_boarder"
+        android:hint="Enter Vehicle RTO"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="5dp"
+        android:text=""
+        android:textColor="@color/green"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/updatSavebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/green_boarder"
+        android:paddingStart="5dp"
+        android:text="Update"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>

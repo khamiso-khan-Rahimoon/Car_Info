@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+    <TextView
+        android:id="@+id/textViewsignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Sign In"
+        android:textColor="@color/green"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/etSignInEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/greenborder"
+        android:ems="10"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:endIconMode="password_toggle">
+
+        <EditText
+            android:id="@+id/PasswordSignInBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/greenborder"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/greenborder"
+        android:backgroundTint="@color/green"
+        android:text="Sign in"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I have No account"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/noAccount"
+
+        />
+
+
+</LinearLayout>
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:text="Welcome \nSign In To Continue"-->
+    <!--android:textSize="25dp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textColor="@color/black"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.255"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/etSignemail"-->
+    <!--android:layout_width="257dp"-->
+    <!--android:layout_height="56dp"-->
+    <!--android:ems="10"-->
+    <!--android:hint="Email"-->
+    <!--android:inputType="textEmailAddress"-->
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:text=""-->
+    <!--app:layout_constraintStart_toStartOf="@+id/textView"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/signInBTN"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Sign In"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--app:layout_constraintEnd_toEndOf="@+id/etSignemail"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/etSignemail"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/etSignemail" />-->

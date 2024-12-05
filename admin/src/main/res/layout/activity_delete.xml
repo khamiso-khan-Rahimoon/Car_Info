@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Data"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <EditText
+        android:id="@+id/etdelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:hint="Enter vehicle Number"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+
+        android:layout_marginTop="30dp"
+        android:padding="12dp"
+        android:background="@drawable/green_boarder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/deletebtnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/green_boarder"
+        android:layout_margin="20dp"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="282dp" />
+</LinearLayout>

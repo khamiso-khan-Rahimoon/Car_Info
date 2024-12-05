@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/etOwnername"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/green_boarder"
+            android:ems="10"
+            android:hint="Enter Owner Name"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:text=""
+            android:textColor="@color/green"
+            android:textColorHint="@color/green" />
+
+        <EditText
+            android:id="@+id/hehicleBrenadEt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/green_boarder"
+            android:ems="10"
+            android:hint="Enter Vehicle brand"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:text=""
+            android:textColor="@color/green"
+            android:textColorHint="@color/green" />
+
+        <EditText
+            android:id="@+id/etvehicalRTo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/green_boarder"
+            android:ems="10"
+            android:hint="Enter Vehicle RTO"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:text=""
+            android:textColor="@color/green"
+            android:textColorHint="@color/green" />
+
+        <EditText
+            android:id="@+id/etVehicaleNo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/green_boarder"
+            android:ems="10"
+            android:hint="Enter Vehicle No"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:text=""
+            android:textColor="@color/green"
+            android:textColorHint="@color/green" />
+
+        <Button
+            android:id="@+id/savebutton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/green_boarder"
+            android:gravity="center"
+            android:text="Save" />
+    </LinearLayout>
+
+</LinearLayout>
